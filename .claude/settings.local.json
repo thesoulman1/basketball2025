@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /b)",
+      "Bash(python inspect_data.py)",
+      "Bash(pip install pandas openpyxl flask)",
+      "Bash(python init_db.py)",
+      "Bash(python app.py)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
